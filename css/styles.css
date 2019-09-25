@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: rgb(33, 6, 58);
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+body {
+    background-color: blueviolet;
+
+}
+nav li a {  color: rgb(33, 6, 58);
+    font-size: 40px;
+text-decoration: none 
+}
+nav ul img {
+width: 100px; height: 100px;
+
+}
+nav li {
+
+    color: rgb(172, 182, 32);
+    font-size: 20px;
+text-decoration: none 
+}
+footer img {
+    width: 400px; height: 200px;
+    
+}
+footer p{
+    text-align: center;
+    color: rgb(33, 6, 58);
+    font-size: 50px;
+
+}
