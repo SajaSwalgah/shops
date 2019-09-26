@@ -18,8 +18,8 @@ if (r == true) {
   
 var cash = function() {
 var pay ;
-var i =  prompt ('how many items do you need?');
-for (let i = 0; i <= 20; i= i+1) {
+var items =  prompt ('how many items do you need?');
+for (var i = 0; i <= items ; i= i+1) {
    pay = i*5;
 }
 return pay;   
@@ -31,7 +31,7 @@ return pay;
 
 function whatcloths (){
 
-  var cloths = prompt ('what cloths do you need?');
+  var cloths = prompt ('what cloths do you need? .. please pick between: men, women, kids');
   var piture;
 
   while (cloths !== 'women' && cloths !== 'men' && cloths !== 'kids') {
